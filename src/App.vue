@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import AppHeader from '@/components/AppHeader.vue';
 import TextCreation from '@/components/TextCreation.vue';
 import TextTransformation from '@/components/TextTransformation.vue';
