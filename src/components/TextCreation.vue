@@ -13,10 +13,10 @@ import { getRandomItemInObject, getRandomItemInArray } from '@/utils/utils';
 const store = useMainStore();
 const options = reactive({
   tokenLengths: {
-    left: 2,
+    left: 4,
     right: 1,
   },
-  textLength: 20,
+  textLength: 200,
 });
 let exampleTokenTrigger = ref(true);
 
