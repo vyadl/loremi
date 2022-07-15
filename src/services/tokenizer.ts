@@ -73,10 +73,10 @@ export const getDictionary = (
 };
 
 function getTokenizedCorpus(corpus: string): string[] {
-  const separators = new Set([' ', ',', '.', '!', '?', ';', ':', '-', '–', '—']);
+  const separators = new Set([' ', ',', '.', '!', '?', ';', ':', '-', '–', '—', '\n']);
   const result = [];
   let word = '';
-
+  
   for (let i = 0; i < corpus.length; i++) {
     const char = corpus[i];
 
